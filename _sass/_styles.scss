@@ -12,7 +12,9 @@ html {
     font-family: 'Roboto', sans-serif;
     color: #F2EEF7;
     background-color: #CD0046;
-    background-image: url('/images/skrittbigpink.png')
+    background-image: url('/images/skrittbigpink.png');
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   h1 h2 {
