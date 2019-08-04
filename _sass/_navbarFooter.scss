@@ -1,20 +1,70 @@
-header {
-    font-family: 'Roboto', sans-serif;
-    background-color:#1e0b51;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    top:0px;
-    color: #F2EEF7;
+//variables
 
+$content-width: 1000px;
+$breakpoint: 799px;
+$nav-height: 70px;
+$nav-background: #1e0b51;
+$nav-font-color: #F2EEF7;
+$link-hover-color: #CD0046;
+
+
+//start code
+
+nav {
+  float: right;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     li {
-        list-style: none;
-        
-        a {
-        color: #F2EEF7;
+      float: left;
+      position: relative;
+      a {
+        display: block;
+        padding: 0 20px;
+        line-clamp: $nav-height;
+        background: $nav-background;
+        color: $nav-font-color;
         text-decoration: none;
+        &:hover {
+          background: $link-hover-color;
+          color: $nav-font-color;
         }
+        &:not(:only-child):after {
+          padding-left: 4px;
+          content: "\25bc";
+        }
+      } // Dropdown 
+      ul li {
+        min-width: 190px;
+        a {
+          padding: 15px;
+          line-height: 20px
+        }
+      }
     }
+  }
+}
+
+
+
+// header {
+//     font-family: 'Roboto', sans-serif;
+//     background-color:#1e0b51;
+//     position: fixed;
+//     z-index: 999;
+//     width: 100%;
+//     top:0px;
+//     color: #F2EEF7;
+
+//     li {
+//         list-style: none;
+        
+//         a {
+//         color: #F2EEF7;
+//         text-decoration: none;
+//         }
+//     }
 
     
-}   
+// }   
