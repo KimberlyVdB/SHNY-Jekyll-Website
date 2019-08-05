@@ -2,11 +2,10 @@
 
 $content-width: 1000px;
 $breakpoint: 799px;
-$nav-height: 70px;
+$nav-height: 80px;
 $nav-background: #1e0b51;
 $nav-font-color: #F2EEF7;
 $link-hover-color: #CD0046;
-
 
 //start code
 
@@ -35,6 +34,7 @@ nav {
           content: "\25bc";
         }
       } // Dropdown 
+
       ul li {
         min-width: 190px;
         a {
@@ -46,25 +46,11 @@ nav {
   }
 }
 
+//dropdown list
 
-
-// header {
-//     font-family: 'Roboto', sans-serif;
-//     background-color:#1e0b51;
-//     position: fixed;
-//     z-index: 999;
-//     width: 100%;
-//     top:0px;
-//     color: #F2EEF7;
-
-//     li {
-//         list-style: none;
-        
-//         a {
-//         color: #F2EEF7;
-//         text-decoration: none;
-//         }
-//     }
-
-    
-// }   
+.nav-dropdown {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
