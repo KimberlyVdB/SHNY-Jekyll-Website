@@ -79,9 +79,28 @@ nav {
 }
 
 @media only screen and (max-width: $breakpoint) {
+  .nav-mobile {
+    display: block;
+  }
+  .nav-dropdown {
+    position: static;
+  }
   nav {
+    width: 100%;
+    padding: $nav-height 0 15px;
     ul {
       display: none;
+      li {
+        float: none;
+        a {
+          padding: 15px;
+          line-height: 20px;
+        }
+        ul li a {
+
+          padding-left: 30px;
+        }
+      }
     }
   }
   #nav-toggle {
@@ -120,5 +139,8 @@ nav {
     &:after {
       transform: rotate(-45deg);
     }
-  // }
+  }
+  .nav-list {
+    display: block !important;
+  }
 }
