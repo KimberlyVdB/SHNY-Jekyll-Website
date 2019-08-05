@@ -1,4 +1,12 @@
 // start content
+
+//variables
+$primary-color: #130170;
+$secondary-color: #CDF4DC;
+$tertiary-color: #01949A;
+$quaternary-color: #CD0046;
+
+
 .my-definition {
   font-size: 1.2em;
 }
@@ -11,7 +19,7 @@ html {
   body {
     font-family: 'Roboto', sans-serif;
     color: #F2EEF7;
-    background-color: #CD0046;
+    background-color: $quaternary-color;
     background-image: url('/images/skrittbigpink.png');
     background-attachment: fixed;
     background-size: cover;
@@ -19,15 +27,15 @@ html {
   
   h1 h2 {
     font-family: 'Muli', sans-serif;
-    color: #1B4A56
+    color: $tertiary-color;
   }
   
   h3 h4 {
     font-family: 'Muli', sans-serif;
-    color: #F2EEF7;
+    color: $secondary-color;
   }
   
   a {
-    color: #A3A3B7;
+    color: $primary-color;
   }
-  
+   
