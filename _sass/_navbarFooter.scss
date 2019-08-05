@@ -20,7 +20,7 @@ nav {
       position: relative;
       a {
         display: block;
-        padding: 0 20px;
+        padding: 10px 20px;
         line-clamp: $nav-height;
         background: $nav-background;
         color: $nav-font-color;
@@ -43,6 +43,19 @@ nav {
         }
       }
     }
+  }
+}
+
+//apply button on navbar
+
+.applyBtn {
+  background-color: $link-hover-color;
+  color: $nav-background;
+  text-transform: uppercase;
+  font-weight: 800;
+  // border-radius: 8px 8px;
+  &:hover {
+    color: $nav-background;
   }
 }
 
