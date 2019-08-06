@@ -7,17 +7,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/main.css">
+  <script src="https://kit.fontawesome.com/ef8e4676e0.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./scripts/scripts.js"></script>
   <title>[SHNY]</title>
 </head>
 
 <body>
-
-  {% include nav.html %}
-
-  {{content}}
-
+  <article>
+    {% include nav.html %}
+    <main>
+      {{content}}
+    </main>
+    {% include footer.html %}
+  </article>
 </body>
 
 </html>
