@@ -6,6 +6,7 @@ $nav-height: 80px;
 $nav-background: #1e0b51;
 $nav-font-color: #F2EEF7;
 $link-hover-color: #CD0046;
+$apply-button: #01949A;
 
 //start code
 
@@ -54,13 +55,13 @@ nav {
 //apply button on navbar
 
 .applyBtn {
-  background-color: $link-hover-color;
+  background-color: $apply-button;
   color: $nav-background;
   text-transform: uppercase;
   font-weight: 800;
-  // border-radius: 8px 8px;
   &:hover {
-    color: $nav-background;
+    color: $nav-font-color;
+    background-color: $apply-button;
   }
 }
 
@@ -83,8 +84,10 @@ nav {
   width: $nav-height;
 }
 
+// nav on mobile
+
 @media only screen and (max-width: $breakpoint) {
-  .nav-list {
+  .navList {
     display: block !important;
   }
   .nav-mobile {
