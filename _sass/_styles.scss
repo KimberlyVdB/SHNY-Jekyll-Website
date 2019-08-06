@@ -1,7 +1,7 @@
 // start content
 
 //variables
-$primary-color: #130170;
+$primary-color: #1e0b51;
 $secondary-color: #CDF4DC;
 $tertiary-color: #01949A;
 $quaternary-color: #CD0046;
@@ -11,12 +11,13 @@ $quaternary-color: #CD0046;
   font-size: 1.2em;
 }
 
-html {
+html, body {
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+
     font-family: 'Roboto', sans-serif;
     color: #F2EEF7;
     background-color: $quaternary-color;
@@ -24,6 +25,17 @@ html {
     background-attachment: fixed;
     background-size: cover;
   }
+  
+  article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main {
+    flex-grow: 1;
+}
   
   h1 h2 {
     font-family: 'Muli', sans-serif;
