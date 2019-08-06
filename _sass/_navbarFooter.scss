@@ -46,6 +46,11 @@ nav {
   }
 }
 
+.navigation {
+  height: $nav-height;
+  background: $nav-background;
+}
+
 //apply button on navbar
 
 .applyBtn {
@@ -79,6 +84,9 @@ nav {
 }
 
 @media only screen and (max-width: $breakpoint) {
+  .nav-list {
+    display: block !important;
+  }
   .nav-mobile {
     display: block;
   }
@@ -103,14 +111,15 @@ nav {
       }
     }
   }
+
   #nav-toggle {
     position: absolute;
     left: 18px;
     top: 22px;
     cursor: pointer;
     padding: 10px 35px 16px 0px;
-
-    span, span:before,
+    span,
+    span:before,
     span:after {
       cursor: pointer;
       border-radius: 1px;
@@ -125,22 +134,21 @@ nav {
     span:before {
       top: -10px;
     }
-    bottom: -10px;
-  }
-  .active span {
-    background-color: transparent;
-    &:before,
-    &:after {
-      top:0;
+    span:after {
+      bottom: -10px;
     }
-    &:before {
-      transform: rotate(45deg);
+    &.active span {
+      background-color: transparent;
+      &:before,
+      &:after {
+        top: 0;
+      }
+      &:before {
+        transform: rotate(45deg);
+      }
+      &:after {
+        transform: rotate(-45deg);
+      }
     }
-    &:after {
-      transform: rotate(-45deg);
-    }
-  }
-  .nav-list {
-    display: block !important;
   }
 }
