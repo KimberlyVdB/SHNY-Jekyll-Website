@@ -1,13 +1,3 @@
-//variables
-
-$content-width: 1000px;
-$breakpoint: 799px;
-$nav-height: 70px;
-$nav-background: #1e0b51;
-$nav-font-color: #F2EEF7;
-$apply-btn-color: #01949A;
-$link-hover-color: #CD0046;
-
 //start code
 
 .navigation {
@@ -17,7 +7,7 @@ $link-hover-color: #CD0046;
     top:0px;
     left: 0px;
   height: $nav-height;
-  background: $nav-background;
+  background: $primary-color;
 }
 
 .brand {
@@ -48,12 +38,12 @@ nav {
         display: block;
         padding: 10px 20px;
         line-clamp: $nav-height;
-        background: $nav-background;
-        color: $nav-font-color;
+        background: $primary-color;
+        color: $secondary-color;
         text-decoration: none;
         &:hover {
-          background: $link-hover-color;
-          color: $nav-font-color;
+          background: $quaternary-color;
+          color: $secondary-color;
         }
         &:not(:only-child):after {
           padding-left: 4px;
@@ -82,13 +72,13 @@ nav {
 //apply button on navbar
 
 .applyBtn {
-  background-color: $apply-btn-color ;
-  color: $nav-font-color;
+  background-color: $tertiary-color ;
+  color: $secondary-color;
   text-transform: uppercase;
   font-weight: 800;
   // border-radius: 8px;
   &:hover {
-    color: $nav-font-color;
+    color: $secondary-color;
   }
 }
 
@@ -108,7 +98,7 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  background: $nav-background;
+  background: $primary-color;
   height: $nav-height;
   width: $nav-height;
 }
@@ -154,7 +144,7 @@ nav {
       border-radius: 1px;
       height: 5px;
       width: 35px;
-      background: $nav-font-color;
+      background: $secondary-color;
       position: absolute;
       display: block;
       content: '';
