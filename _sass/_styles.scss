@@ -1,4 +1,5 @@
 // start code
+// @import 'config';
 
 .my-definition {
   font-size: 1.2em;
@@ -13,9 +14,9 @@ html, body {
     font-family: 'Roboto', sans-serif;
     color: #F2EEF7;
     background-color: $quaternary-color;
-    background-image: url('/images/skrittbigpink.png');
-    background-attachment: fixed;
-    background-size: cover;
+    // background-image: url('/images/skrittbigpink.png');
+    // background-attachment: fixed;
+    // background-size: cover;
   }
   
   article {
@@ -45,30 +46,6 @@ main {
     color: $primary-color;
   }
    
-.homePage {
-  margin-top: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  h1, h2 {
-    margin: 8px;
-  }
-  h1 {
-    font-size: 5em;
-    background: rgba(lighten($primary-color, 2), 0.5);
-  }
-  h2 {
-    font-size: 3em;
-    background: rgba(lighten($primary-color, 2), 0.5);
-  }
-  .guildEmblem{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-  }
-}
 
 // .page-class {
 //   css for that page
