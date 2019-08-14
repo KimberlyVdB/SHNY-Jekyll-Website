@@ -2,7 +2,7 @@
 
 $content-width: 1000px;
 $breakpoint: 799px;
-$nav-height: 80px;
+$nav-height: 70px;
 $nav-background: #1e0b51;
 $nav-font-color: #F2EEF7;
 $apply-btn-color: #01949A;
@@ -25,9 +25,14 @@ $link-hover-color: #CD0046;
   padding-left: 20px;
   // float: left;
   // line-height: $nav-height;
+  margin: 0;
   text-transform: uppercase;
-  // font-size: 1.4em;
+  font-size: 1.4em;
   white-space: nowrap; // so the logo doesn't go down when squeezed
+  h1 {
+    margin:auto;
+    padding-top: 3px;
+  }
 }
 
 nav {
