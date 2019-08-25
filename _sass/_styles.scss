@@ -13,9 +13,6 @@ html, body {
     font-family: 'Roboto', sans-serif;
     color: #F2EEF7;
     background-color: $primary-color;
-    // background-image: url('/images/skrittbigpink.png');
-    // background-attachment: fixed;
-    // background-size: cover;
   }
   
   article {
@@ -45,10 +42,34 @@ main {
   a {
     color: $primary-color;
   }
-   
-.titleBanner {
-  background: url('/images/skrittBanner1.png');
-  height: 250px;
+
+.content {
+margin: 0 20% 0 20%;
+.skrittBanner {
+  margin: 50px 0 0 0;
+  img {
+    width: 100%;
+  }
+
+}
+ul{ 
+  :last-child {
+    list-style: none;
+  }
+  li {
+    margin-bottom: 20px;
+    span {
+      font-weight: 900;
+    color: $tertiary-color;
+    }
+  }
+  
+}
+
+// .titleBanner {
+//   background: url('/images/skrittBanner1.png');
+//   height: 150px;
+  
 
   // .titleDiv {
   //   display: flex;
