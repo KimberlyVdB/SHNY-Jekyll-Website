@@ -17,9 +17,15 @@
   <article>
     {% include nav.html %}
     <main>
+      {% if page.title == "mainContent" %}
+      <div class="navBackgroundbreak">
+        <img src="/images/imgnavBreak.png">
+      </div>
+      {% endif %}
+
       {{content}}
     </main>
-
+    <!-- {% include banner.html %} -->
   </article>
 </body>
 
