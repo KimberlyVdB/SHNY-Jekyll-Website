@@ -12,7 +12,7 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     color: #F2EEF7;
-    background-color: $primary-color;
+    background-color: darken($primary-color,5%)
   }
   
   article {
@@ -43,15 +43,49 @@ main {
     color: $primary-color;
   }
 
-.content {
-margin: 0 20% 0 20%;
-.skrittBanner {
-  margin: 50px 0 0 0;
+.navBackgroundbreak {
+  
   img {
     width: 100%;
   }
-
 }
+
+.content {
+margin: 0 25% 0 25%;
+.skrittEmblem {
+  margin: 50px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  span {  
+    color: $tertiary-color;
+  }
+  .applicationOpen {
+    color: $quaternary-color;
+    font-weight: 800;
+  }
+  form {
+    line-height: 30px;
+    .submitButton {
+      background-color: $tertiary-color;
+      color: $secondary-color;
+      height: 50px;
+      width: 80px;
+      margin: 15px 0 15px 0;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 600;
+     }
+    .userMessage {
+      display: block;
+      height: 120px;
+      width: 450px;
+    }
+   
+  }
+}
+
 ul{ 
   :last-child {
     list-style: none;
@@ -64,7 +98,7 @@ ul{
     }
   }
   
-}
+
 
 // .titleBanner {
 //   background: url('/images/skrittBanner1.png');
