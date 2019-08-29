@@ -43,6 +43,10 @@ main {
     color: $primary-color;
   }
 
+p{
+  line-height: 20px;
+}
+
 .navBackgroundbreak { //img below the nav to 'break' the backgrouds from nav and content
   img {
     width: 100%;
