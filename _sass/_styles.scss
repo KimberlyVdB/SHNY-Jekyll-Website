@@ -92,15 +92,19 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     .imageContainer {
       position: relative;
+      margin-bottom: 20px;
+      .imageContentInfo {
+        // display: flex;
+        position: absolute;
+        bottom: 20px;
+        background-color: rgba(lighten($tertiary-color, 2), 0.4);
+        // color: $secondary-color;
+      }
     }
-    .imageContentInfo {
-      // position: absolute;
-      bottom: 20px;
-      background-color: rgba(lighten($tertiary-color, 2), 0.3);
-      color: $secondary-color;
-    }
+   
   }
 }
 
