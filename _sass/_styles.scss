@@ -53,9 +53,8 @@ p{
   }
 }
 
-
 .content {
-margin: 0 25% 0 25%;
+  margin: 0 25% 0 25%;
 .skrittEmblem {
   margin: 50px 0 0 0;
   display: flex;
@@ -88,6 +87,21 @@ margin: 0 25% 0 25%;
     }
    
   }
+  // fashion skritt page
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .imageContainer {
+      position: relative;
+    }
+    .imageContentInfo {
+      // position: absolute;
+      bottom: 20px;
+      background-color: rgba(lighten($tertiary-color, 2), 0.3);
+      color: $secondary-color;
+    }
+  }
 }
 
 ul{ 
@@ -101,17 +115,7 @@ ul{
     color: $tertiary-color;
     }
   }
-  
-
-
-// .titleBanner {
-//   background: url('/images/skrittBanner1.png');
-//   height: 150px;
-  
-
-  // .titleDiv {
-  //   display: flex;
-    // margin-left: auto;
-    // justify-content: flex-start;
-//   }
 }
+
+  
+
