@@ -98,6 +98,11 @@ p{
       position: relative;
       margin-bottom: 20px;
 
+      img {
+        width: 450px;
+        height: 250px;
+      }
+
       .imageContentInfo {
           text-align: center;
         width: 120px;
@@ -112,20 +117,19 @@ p{
       }
     }
   }
-}
-
-ul{ 
-  :last-child {
-    list-style: none;
-  }
-  li {
-    margin-bottom: 20px;
-    span {
-      font-weight: 900;
-    color: $tertiary-color;
+  ul{ 
+    :last-child {
+      list-style: none;
     }
-  }
+    li {
+      margin-bottom: 20px;
+      span {
+        font-weight: 900;
+      color: $tertiary-color;
+      }
+    }
+  }  
 }
 
-  
+
 
