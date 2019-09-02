@@ -104,9 +104,9 @@ p{
       }
 
       .imageContentInfo {
-          text-align: center;
+        text-align: center;
         width: 120px;
-        right: -8px;
+        right: -9px;
         position: absolute;
         bottom: -5px;
         background-color: rgba(lighten($quaternary-color, 2), 0.6);
@@ -129,6 +129,41 @@ p{
       }
     }
   }  
+  .newsTitle {
+    text-decoration: underline;
+    color: $secondary-color;
+  }
+}
+
+@media only screen and (max-width: $breakpoint) {
+
+  .navBackgroundbreak {
+    margin-top: 30px; //img below the nav to 'break' the backgrouds from nav and content
+    img {
+      width: 100%;
+    }
+  }
+  .content {
+    margin: 0 10% 0 10%;
+
+    .imageContainer {
+      position: relative;
+      margin-bottom: 20px;
+
+      img {
+        width: 250px;
+        height: 150px;
+      }
+    }
+    form {
+      line-height: 30px;
+      .userMessage {
+        display: block;
+        height: 120px;
+        width: 250px;
+      }
+    }
+  }
 }
 
 
