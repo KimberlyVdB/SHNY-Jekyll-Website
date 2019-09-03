@@ -11,7 +11,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    color: #F2EEF7;
+    color: $secondary-color;
     background-color: darken($primary-color,5%)
   }
   
@@ -40,11 +40,13 @@ main {
   }
   
   a {
-    color: $primary-color;
+    color: $secondary-color;
+    text-decoration: none;
   }
 
 p{
   line-height: 20px;
+  margin: 5px 0 5px 0;
 }
 
 .navBackgroundbreak { //img below the nav to 'break' the backgrouds from nav and content
@@ -54,17 +56,22 @@ p{
 }
 
 .content {
-  margin: 0 25% 0 25%;
-.skrittEmblem {
-  margin: 50px 0 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 25% 0% 25%;
+
+  .aboutPage {
+     margin-bottom: 25px;
   }
+// .skrittEmblem {
+//   margin: 50px 0 0 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   }
   span {  
     color: $tertiary-color;
+    font-weight: 700;
   }
-  .applicationOpen {
+  .altSpanColor {
     color: $quaternary-color;
     font-weight: 800;
   }
@@ -74,7 +81,7 @@ p{
       background-color: $tertiary-color;
       color: $secondary-color;
       height: 50px;
-      width: 80px;
+      width: 120px;
       margin: 15px 0 15px 0;
       cursor: pointer;
       text-transform: uppercase;
@@ -90,6 +97,7 @@ p{
   }
   // fashion skritt page
   .gallery {
+    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -118,14 +126,13 @@ p{
     }
   }
   ul{ 
-    :last-child {
-      list-style: none;
-    }
     li {
+      line-height: 20px;
       margin-bottom: 20px;
+      list-style: square;
       span {
         font-weight: 900;
-      color: $tertiary-color;
+        color: $tertiary-color;
       }
     }
   }  
@@ -136,7 +143,6 @@ p{
 }
 
 @media only screen and (max-width: $breakpoint) {
-
   .navBackgroundbreak {
     margin-top: 30px; //img below the nav to 'break' the backgrouds from nav and content
     img {
@@ -145,20 +151,28 @@ p{
   }
   .content {
     margin: 0 10% 0 10%;
-
+    .gallery {
     .imageContainer {
       position: relative;
       margin-bottom: 20px;
 
       img {
-        width: 250px;
-        height: 150px;
+        width: 280px;
+        height: 180px;
+      }
+
+      .imageContentInfo {
+        height: 80px;
+        .fashionTheme {
+          margin-top: 10px;
+        }
       }
     }
+  }
     form {
       line-height: 30px;
       .userMessage {
-        display: block;
+        // display: block;
         height: 120px;
         width: 250px;
       }
