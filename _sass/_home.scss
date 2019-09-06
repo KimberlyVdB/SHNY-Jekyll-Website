@@ -4,7 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: $home-image;
+  background-image: $desktop-background;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 
@@ -17,15 +18,13 @@
     height: 100%;
     z-index: -1;
     }
- 
-  h1, h2 {
-    margin: 8px;
-  }
-  h1 {
+
+  .guildName {
     font-size: 5em;
+    margin-bottom: 5px;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
-  h2 {
+  .guildDiscription {
     font-size: 3em;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
@@ -34,5 +33,32 @@
     margin-left: auto;
     margin-right: auto;
     width: 10%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .homePage {
+    background-image: $ipad-background;
+    .guildEmblem {
+      width: 25%;
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint) {
+  .homePage {
+    background-image: $mobile-background;
+    .guildName .guildDiscription {
+      margin-bottom: 4px;
+    }
+    .guildName {
+      font-size: 3em;
+    }
+    .guildDiscription{
+      font-size: 1.5em;
+    }
+    .guildEmblem {
+      width: 40%;
+    }
   }
 }
