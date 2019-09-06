@@ -27,12 +27,13 @@
 
       {{content}}
 
+      {% if page.title == "mainContent" %}
+      <div class="bottomEmblem">
+        <img src="/images/skrittEmblem2.png">
+      </div>
+      {% endif %}
     </main>
-    <!-- {% if page.title == "mainContent" %}
-    <div class="bottomBanner">
-      <img src="/images/skrittBanner1.png">
-    </div>
-    {% endif %} -->
+
   </article>
 
   <script>
