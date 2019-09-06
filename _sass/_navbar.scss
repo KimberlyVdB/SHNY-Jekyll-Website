@@ -23,10 +23,8 @@
 }
 
 nav {
-  // float: right;
   ul {
     list-style: none;
-    // margin: 0;
     padding: 0;
     li {
       float: left;
@@ -46,7 +44,7 @@ nav {
           padding-left: 4px;
           content: "\25bc";
         }
-      } // Dropdown 
+      } // Dropdown
 
       ul li {
         min-width: 190px;
@@ -94,7 +92,6 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  background: $primary-color;
   height: $nav-height;
   width: $nav-height;
 }
@@ -120,7 +117,7 @@ nav {
           line-height: 20px;
         }
         ul li a {
-          padding-left: 30px;
+          padding-left: 20px;
         }
       }
     }
