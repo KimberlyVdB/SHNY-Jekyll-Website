@@ -41,7 +41,7 @@ title: mainContent
     <p>Applications are currently: <span class="altSpanColor">OPEN</span></p>
   </div>
 
-  <form netlify>
+  <form name="application" netlify>
     <div>
       <label>
         <input type="checkbox" name="agree" required>I understand and accept therules.
@@ -68,11 +68,13 @@ title: mainContent
     </div>
 
     <div>
-      <label class="userNameLabel">Your ingame name: <input class="userName" placeholder="ingame name" required></label>
+      <label class="userNameLabel">Your ingame name:
+        <input type="text" class="userName" placeholder="ingame name" required>
+      </label>
     </div>
 
     <div>
-      <label for="joinWhy">Why would you like to join/ tell us about yourself below:</label>
+      <label for="user message">Why would you like to join/ tell us about yourself below:</label>
       <textarea class="userMessage" name="user message" required></textarea>
     </div>
 
