@@ -97,6 +97,10 @@ nav {
 }
 
 @media only screen and (max-width: $breakpoint) {
+  .brand{
+    padding-top: 5px;
+    font-size: 1.2em;
+  }
   .nav-mobile {
     display: block;
   }
@@ -106,7 +110,6 @@ nav {
   nav {
     width: 100%;
     padding: $nav-height 0 15px;
-    position: relative;
     ul {
       display: none;
       margin: 0;
