@@ -61,14 +61,15 @@ p{
  }
 }
 
+.post-content {
+  img {
+    width: 100%;
+  }
+}
 .content {
   margin: 0 25% 0% 25%;
 
-  .post-content {
-    img {
-      width: 50%;
-    }
-  }
+
 
   .aboutPage {
      margin-bottom: 25px;
