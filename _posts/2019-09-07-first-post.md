@@ -3,7 +3,10 @@ layout: post
 title: First post!
 date: 2019-09-07T17:51:12.398Z
 ---
-A **\[SHNY] 💎** brand new website and our first post! We will post about past events and keep our fashion wars up-to-date here, so there is always a nice overview. Below you can find some screenshots of past guild shenanigans! ✨
+A **\[SHNY] 💎** brand new website and our first post!
+ We will post about past events and keep our fashion wars up-to-date here,
+ so there is always a nice overview.
+ Below you can find some screenshots of past guild shenanigans! ✨
 
 ![](/assets/uploads/gw439.png)
 
