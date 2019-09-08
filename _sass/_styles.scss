@@ -69,7 +69,9 @@ p{
 .content {
   margin: 0 25% 0% 25%;
 
-
+  .titles {
+    background: $quaternary-color;
+  }
 
   .aboutPage {
      margin-bottom: 25px;
@@ -148,7 +150,7 @@ p{
 
   .newsTitle {
     text-decoration: underline;
-    color: $secondary-color;
+    color: $tertiary-color;
   }
 }
 
