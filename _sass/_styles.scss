@@ -35,7 +35,7 @@ main {
   h3, h4 {
     font-size: 1.6em;
     font-family: 'Play', sans-serif;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
 
   a {
@@ -71,6 +71,7 @@ p{
 
   .titles {
     background: $quaternary-color;
+    color: $secondary-color;
   }
 
   .aboutPage {
