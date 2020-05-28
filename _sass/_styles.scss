@@ -78,6 +78,14 @@ p{
     color: $quaternary-color;
     font-weight: 800;
   }
+
+  .alt-color{
+    color: $primary-color;
+    letter-spacing: 3px;
+    font-weight: 900;
+    }
+
+
   form {
     line-height: 30px;
     .submitButton {
