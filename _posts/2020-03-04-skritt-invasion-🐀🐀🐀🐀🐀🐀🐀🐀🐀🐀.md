@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Skritt invasion \U0001F400\U0001F400\U0001F400\U0001F400\U0001F400\U0001F400\U0001F400\U0001F400\U0001F400\U0001F400"
+title: Skritt Invasion!
 date: 2020-03-04T13:25:58.246Z
 ---
 Last month we did our first Skritt invasion. The idea was to annoy strangers in random cities/maps while we have fun on discord. We did that you will find lots of screenshots of our shenanigans below. But not only did we annoy strangers, we robbed the black lion trading company, went on a world boss run then ended up raiding and finishing of the night with some cards against humanity. Friends and a music bot at our side!
