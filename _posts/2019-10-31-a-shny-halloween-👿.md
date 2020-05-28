@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A SHNY Halloween \U0001F47F"
+title: A SHNY Halloween
 date: 2019-10-31T17:55:37.320Z
 ---
 Halloween time, guild time 👻
