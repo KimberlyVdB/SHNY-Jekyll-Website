@@ -32,10 +32,17 @@ main {
     color: $secondary-color;
   }
 
-  h3, h4 {
+  h3 {
     font-size: 1.6em;
     font-family: 'Play', sans-serif;
     color: $tertiary-color;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    font-family: 'Play', sans-serif;
+    color: $tertiary-color;
+    margin-bottom: 12px;
   }
 
   a {
@@ -74,6 +81,7 @@ p{
     color: $tertiary-color;
     font-weight: 700;
   }
+
   .altSpanColor {
     color: $quaternary-color;
     font-weight: 800;
