@@ -57,7 +57,7 @@ Well we had another #Skrittstagram and a Skritt Invasion! We had a lot of fun if
 
 ![](/assets/uploads/gw2-64-2020-10-04-20-23-25.png)
 
-![](/assets/uploads/gw2-64-2020-10-11-20-25-52.png)
+![]()
 
 ![](/assets/uploads/gw2-64-2020-10-09-21-07-47.png)
 
